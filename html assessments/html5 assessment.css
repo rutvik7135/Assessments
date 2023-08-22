@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+/* logo css */
+
+.logo{
+    height: 55px;
+    margin-left: 50px;
+}
+
+.menubar{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.menu{
+    display: flex;
+}
+
+/* mein menu css */
+
+.mainmenu{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 40px;
+    margin: 2px;
+    color: white;
+}
+
+/* button css */
+
+.login{
+    margin-top: 2px;
+    margin-left: 0px;
+    font-weight: bold;
+    padding: 3px 20px;
+    font-size: large;
+}
+
+/* submenu css */
+
+.sub-menu{
+    display: none;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* anti submenu css */
+
+.anti-sub-div{
+    position: absolute;
+    top: 25.5%;
+    left: 72.8%;
+}
+
+.anti-sub-menu{
+    width: 120px;
+    height: 40px;
+    margin-top: 1px;
+    display: none;
+    position: relative;
+    background-color: blue;
+    padding-left: 10px;
+}
+
+/* hover efact start */
+
+.menu :hover{
+    background-color: rgb(10, 10, 173);
+}
+
+.menu :hover .sub-menu{
+    display: block;
+}
+
+.mainmenu :hover .anti-sub-menu{
+    display: block;
+}
+
+.anti-sub-menu{
+    position: relative;
+}
